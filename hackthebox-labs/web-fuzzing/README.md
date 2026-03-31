@@ -14,8 +14,9 @@ Web fuzzing is the process of sending automated, modified inputs to a web applic
 | 2 | [Parameter and Value Fuzzing](./02-parameter-value-fuzzing/) | GET + POST flags found | ✅ Solved |
 | 3 | [Virtual Host and Subdomain Fuzzing](./03-vhost-subdomain-fuzzing/) | vhost + subdomain found | ✅ Solved |
 | 4 | [Filtering Fuzzing Output](./04-filtering-fuzzing-output/) | POST flag confirmed | ✅ Solved |
-| 5 | [Validating Findings](./05-validating-findings/) | `Content-Length` confirmed | ✅ Solved |
+| 5 | [Validating Findings](./05-validating-findings/) | Content-Length confirmed | ✅ Solved |
 | 6 | [API Fuzzing](./06-api-fuzzing/) | Endpoint + flag found | ✅ Solved |
+| 7 | [Skill Assessment](./07-skill-assessment/) | Flag via chained fuzzing | ✅ Solved |
 
 ---
 
@@ -25,5 +26,6 @@ Web fuzzing is the process of sending automated, modified inputs to a web applic
 |------|---------|
 | `ffuf` | Fast URL/parameter fuzzing |
 | `gobuster` | Directory, VHost, DNS fuzzing |
+| `feroxbuster` | Recursive directory scanning |
 | `curl` | Manual request/validation |
 | `webfuzz_api` | API endpoint discovery |
