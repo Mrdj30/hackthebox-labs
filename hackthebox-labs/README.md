@@ -1,25 +1,30 @@
 # 🟥 HackTheBox Academy — Module Writeups
 
-> by [Mrdj30](https://github.com/Mrdj30) · Hands-on offensive security research
+> [← Back to main](../README.md) · by [Mrdj30](https://github.com/Mrdj30) · Hands-on offensive security research
 
 ---
 
 ## 📚 Modules
 
-| # | Module | Topics | Link |
-|---|--------|--------|------|
-| 1 | 🔍 Web Fuzzing | 6 topics | [web-fuzzing/](./web-fuzzing/) |
-
-> 🔄 More modules coming soon...
+| # | Module | Topics | Difficulty | Status | Link |
+|---|--------|--------|------------|--------|------|
+| 1 | 🔍 Web Fuzzing | 7 / 7 | 🟡 Medium | ✅ Complete | [web-fuzzing/](./web-fuzzing/) |
+| 2 | 🌐 SQL Injection Fundamentals | — | 🟢 Easy | 🔜 Planned | Coming Soon |
+| 3 | 🔐 Authentication Bypass | — | 🟡 Medium | 🔜 Planned | Coming Soon |
+| 4 | 📁 File Upload Vulnerabilities | — | 🟡 Medium | 🔜 Planned | Coming Soon |
+| 5 | 🔌 Command Injection | — | 🟠 Hard | 🔜 Planned | Coming Soon |
 
 ---
 
 ## 🛠️ Tools Used
 
-- **ffuf** — Fast web fuzzer
-- **Gobuster** — Directory, VHost & DNS fuzzing
-- **curl** — Manual validation
-- **webfuzz_api** — API endpoint fuzzer
+| Tool | Purpose |
+|------|---------|
+| `ffuf` | Fast URL/parameter fuzzing |
+| `gobuster` | Directory, VHost & DNS fuzzing |
+| `feroxbuster` | Recursive directory scanning |
+| `curl` | Manual request/validation |
+| `webfuzz_api` | API endpoint discovery |
 
 ---
 

@@ -1,6 +1,11 @@
 # 🔍 Web Fuzzing
 
-> [← Back to main](../README.md)
+> [← Back to modules](../README.md)
+
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)](.)
+[![Topics](https://img.shields.io/badge/Topics-7%2F7-brightgreen?style=flat-square)](.)
+[![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow?style=flat-square)](.)
+[![Tools](https://img.shields.io/badge/Tools-ffuf%20%7C%20gobuster%20%7C%20feroxbuster-blue?style=flat-square)](.)
 
 Web fuzzing is the process of sending automated, modified inputs to a web application to discover hidden content, parameters, endpoints, and vulnerabilities.
 
@@ -29,3 +34,19 @@ Web fuzzing is the process of sending automated, modified inputs to a web applic
 | `feroxbuster` | Recursive directory scanning |
 | `curl` | Manual request/validation |
 | `webfuzz_api` | API endpoint discovery |
+
+---
+
+## 💡 Key Takeaways
+
+- Recursive fuzzing reveals directories hidden deep inside nested paths
+- Parameter fuzzing exposes hidden GET/POST parameters attackers can manipulate
+- VHost/subdomain fuzzing uncovers virtual hosts not visible in standard DNS
+- Filtering output by status codes and content-length cuts noise dramatically
+- Chaining techniques — recursion → parameter → subdomain → deep scan — mirrors real-world enumeration
+
+---
+
+## ⏱️ Estimated Time
+
+**3–5 hours** to complete all 7 topics from scratch.
